@@ -1,0 +1,26 @@
+/* header */
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid grey;
+    background-color: rgb(67, 121, 131);
+}
+
+.logo-travel{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px;
+}
+  
+/* main */
+.main-container{
+    display: flex;
+    gap: 20px;
+}
+
+.img-slideshow{
+    max-width: 500px;
+    max-height: 500px;
+    size: 100px;
+}
