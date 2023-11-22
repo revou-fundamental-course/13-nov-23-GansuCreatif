@@ -16,11 +16,54 @@
 /* main */
 .main-container{
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    align-items: center;
+    margin: 10px;
 }
 
 .img-slideshow{
     max-width: 500px;
     max-height: 500px;
-    size: 100px;
+    flex: 2;
+}
+
+form {
+    margin-top: 10px;
+}
+
+
+label {
+    margin-top: 200px;
+}
+
+
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.contact-us{
+    flex: 1;
 }

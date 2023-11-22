@@ -4,6 +4,7 @@
     <title>Travel-Que</title>
     <link rel="shortcut icon" href="assets/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <header>
@@ -20,33 +21,46 @@
         <center><h1>Your Trusted Travel Agent's</h1></center>
         <center><h5>Your Happiness is our Happiness</h5></center>
         <div class="main-container">
+            <div class="main-container-left">
+                <button onclick="plusDivs(-1)">Previus</button>
+            </div>
             <div class="gambar-review">
                 <img src="assets/bali.png" alt="Bali" class="img-slideshow"/>
                 <img src="assets/bandung.png" alt="Bali" class="img-slideshow"/>
-                <img src="assets/raja ampat.png" alt="Bali" class="img-slideshow"/>
+                <img src="assets/raja ampat.png" alt="Bali" class="img-slideshow"/> 
+            </div>
+            <div class="main-container-right">
+                <button onclick="plusDivs(1)">Next</button>
             </div>
             <div class="contact-us">
-                <h3>Contact Us</h3>
-                    <h5>Sales akan menghubungi anda 1x24 jam setelah data diterima</h5>
-                    <form class="form-contact"> 
-                        <label for="name">Your Name:</label><br>
-                        <input type="text" id="fname" name="fname" placeholder="Firtst Name and Last Name"><br>
-                        <br>
-                        <label for="email">Email Address:</label><br>
-                        <input type="text" id="email" name="email" placeholder="examples@email.com"><br>
-                        <br>
-                        <label for="interest">What are you interested in?</label><br>
-                        <select id="interest">
-                            <option value="select option" selected>Select Option</option>
-                        </select><br>
-                        <br>
-                        <input type="button" value="SEND">
-                    </form> 
+                <form>
+
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Your First Name"><br>
+
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Your Last Name"><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Your Email"><br>
+
+                    <label for="interest">What Interested You in Using Option?</label><br>
+                    <select id="interest" name="interest">
+                      <option value="fname">Selected Option</option>
+                      <option value="lname">Bandung</option>
+                      <option value="email">Bali</option>
+                      <option value="email">Raja Ampat</option>
+                    </select><br>
+                
+                    <input type="submit" value="Submit">
+                
+                </form>
             </div>
         </div>
     </main>
     <footer>
         <div class=""></div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
