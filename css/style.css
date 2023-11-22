@@ -14,6 +14,9 @@
 }
   
 /* main */
+.banner h5{ 
+    color: #6c757d;
+}
 .main-container{
     display: flex;
     gap: 30px;
@@ -22,13 +25,24 @@
 }
 
 .img-slideshow{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 750px;
+    max-height: 980px;
+    flex: 1;
+}
+
+.contact-us{
     flex: 2;
+    align-content: center;
+    background-color:grey;
+    filter: brightness(100%);
 }
 
 form {
-    margin-top: 10px;
+    margin: 50px;
+}
+
+form.h3{
+    text-align: center;
 }
 
 
@@ -38,9 +52,9 @@ label {
 
 
 input[type=text], input[type=email], select {
-    width: 100%;
+    width: 60%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 10px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -49,7 +63,7 @@ input[type=text], input[type=email], select {
 
 
 input[type=submit] {
-    width: 100%;
+    width: 40%;
     background-color: grey;
     color: white;
     padding: 14px 20px;
@@ -64,6 +78,81 @@ input[type=submit]:hover {
     opacity: 0.8;
 }
 
-.contact-us{
-    flex: 1;
+.information-container{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.box-sidebar{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.information-container2{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    gap: 10px;
+}
+.information-container3{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.information-container4{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.our-package{
+    display: flex;
+    border-bottom: 2px solid grey;
+    background-color:grey;
+    filter: brightness(100%);
+    justify-content: center;
+    font-size: 30px;
+}
+.package-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0;
+    list-style: none;
+    border-bottom: 2px solid grey;
+    filter: brightness(100%);
+    
+}
+
+.item-flex{
+    font-size: 17px;
+    line-height: 2;
+    text-align: center;
+}
+
+.closing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin: 0;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
+input[type=hubungi] {
+    width: 10%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
 }
