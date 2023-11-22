@@ -16,6 +16,10 @@
 /* main */
 .banner h5{ 
     color: #6c757d;
+    text-align: center;
+}
+.banner h1{ 
+    text-align: center;
 }
 .main-container{
     display: flex;
@@ -37,13 +41,16 @@
     filter: brightness(100%);
 }
 
+.contact-us h3, .contact-us p{ 
+    margin: 50px; 
+}
+
+
 form {
     margin: 50px;
 }
 
-form.h3{
-    text-align: center;
-}
+
 
 
 label {
@@ -64,7 +71,7 @@ input[type=text], input[type=email], select {
 
 input[type=submit] {
     width: 40%;
-    background-color: grey;
+    background-color: black;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -142,10 +149,10 @@ input[type=submit]:hover {
     padding: 30px;
     margin: 0;
     align-items: center;
-    border-bottom: 2px solid grey;
+     border-bottom: 2px solid grey;
 }
 
-input[type=hubungi] {
+.closing input[type=submit] {
     width: 10%;
     background-color: grey;
     color: white;
@@ -153,6 +160,11 @@ input[type=hubungi] {
     margin: 8px 0;
     border: none;
     cursor: pointer;
+    text-align: center;
+
+}
+
+.footer-container{
     text-align: center;
 
 }
