@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
 /* header */
 .header-wrap{
     display: flex;
@@ -17,9 +19,11 @@
 .banner h5{ 
     color: #6c757d;
     text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .banner h1{ 
     text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .main-container{
     display: flex;
@@ -39,19 +43,23 @@
     align-content: center;
     background-color:grey;
     filter: brightness(100%);
+    font-family: 'Nunito Sans', sans-serif;
 }
 
-.contact-us h3, .contact-us p{ 
+.contact-us h3{
+    margin: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.contact-us p{
     margin: 50px; 
+    background-color: grey;
+    color: white;
 }
-
 
 form {
     margin: 50px;
 }
-
-
-
 
 label {
     margin-top: 200px;
@@ -95,6 +103,7 @@ input[type=submit]:hover {
 .box-sidebar{
     font-size: 20px;
     line-height: 1.5;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .information-container2{
     display: flex;
@@ -133,6 +142,7 @@ input[type=submit]:hover {
     list-style: none;
     border-bottom: 2px solid grey;
     filter: brightness(100%);
+    font-family: 'Nunito Sans', sans-serif;
     
 }
 
@@ -149,7 +159,8 @@ input[type=submit]:hover {
     padding: 30px;
     margin: 0;
     align-items: center;
-     border-bottom: 2px solid grey;
+    border-bottom: 2px solid grey;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .closing input[type=submit] {
@@ -164,7 +175,11 @@ input[type=submit]:hover {
 
 }
 
+h2{
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* Footer */
 .footer-container{
     text-align: center;
-
+    font-family: 'Nunito Sans', sans-serif;
 }

@@ -35,15 +35,15 @@
                 <h3>Contact Us</h3>
                 <p>Sales akan menghubungi anda 1x24 Jam<br> 
                     setelah data kami terima.</p>
-                <form>
-                    <label for="fname">First Name:</label><br>
-                    <input type="text" id="fname" name="fname" placeholder="Your First Name"><br>
+                <form id="contact-form">
+                    <label for="firstname">First Name:</label><br>
+                    <input type="text" id="firstname" name="firstname" placeholder="Your First Name" required><br>
 
-                    <label for="lname">Last Name:</label><br>
-                    <input type="text" id="lname" name="lname" placeholder="Your Last Name"><br>
+                    <label for="lastname">Last Name:</label><br>
+                    <input type="text" id="lastname" name="lastname" placeholder="Your Last Name" required><br>
 
                     <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" placeholder="Your Email"><br>
+                    <input type="email" id="email" name="email" placeholder="examples@email.com" required><br>
 
                     <label for="interest">What Interested You in Using Option?</label><br>
                     <select id="interest" name="interest">
@@ -55,7 +55,6 @@
                       <option value="email">Surabaya</option>
                       <option value="email">Mandalika</option>
                     </select><br>
-                
                     <input type="submit" value="Submit">
                 </form>
             </div>

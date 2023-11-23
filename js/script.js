@@ -21,3 +21,27 @@ function showDivs(n){
 setInterval(() => {
     plusDivs(1);
 }, 3000);
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+
+    event.preventDefault();
+   
+    let firstName = document.getElementById('firstname').value;
+    let lastName = document.getElementById('lastname').value;
+    let email = document.getElementById('email').value;
+    let option = document.getElementById('interest').value;
+        
+    if (firstName && lastName && email && option) {
+   
+       alert('terimakasih telah mengisi segera tim kami akan menghubungi anda terimakasih.');
+        
+       // Reset form fields
+
+        document.getElementById('contact-form').reset();
+    } else {
+   
+       alert('Tolong isi field yang kosong.');
+   
+    }
+   
+   });
