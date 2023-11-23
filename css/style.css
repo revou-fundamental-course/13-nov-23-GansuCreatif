@@ -63,7 +63,7 @@
 
 .contact-us p{
     margin: 50px; 
-    background-color: grey;
+    color: grey;
     color: white;
 }
 
@@ -73,6 +73,11 @@ form {
 
 label {
     margin-top: 200px;
+    color: black;
+    filter: brightness(100%);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    
 }
 
 
