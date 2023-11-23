@@ -14,14 +14,19 @@
     max-height: 100px;
     margin: 10px;
 }
-  
+
+.navigasi{
+    display: flex;
+    padding: 40px;
+}
+
 /* main */
-.banner h5{ 
+.section h5{ 
     color: #6c757d;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
-.banner h1{ 
+.section h1{ 
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -32,14 +37,19 @@
     margin: 10px;
 }
 
+.gambar-review{
+    display: flex;
+}
+
 .img-slideshow{
     max-width: 750px;
     max-height: 980px;
-    flex: 1;
+    display: flex;
 }
 
 .contact-us{
-    flex: 2;
+    display: flex;
+    flex-direction: column;
     align-content: center;
     background-color:grey;
     filter: brightness(100%);
@@ -67,18 +77,19 @@ label {
 
 
 input[type=text], input[type=email], select {
-    width: 60%;
+    width: 100%;
     padding: 12px 20px;
     margin: 10px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    font-size: 10px;
 
 }
 
 
 input[type=submit] {
-    width: 40%;
+    width: 100%;
     background-color: black;
     color: white;
     padding: 14px 20px;
@@ -125,7 +136,7 @@ input[type=submit]:hover {
     gap: 10px;
 }
 
-.our-package{
+#our-package{
     display: flex;
     border-bottom: 2px solid grey;
     background-color:grey;
@@ -152,7 +163,7 @@ input[type=submit]:hover {
     text-align: center;
 }
 
-.closing{
+#closing{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,8 +174,8 @@ input[type=submit]:hover {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.closing input[type=submit] {
-    width: 10%;
+#closing button {
+    width: 15%;
     background-color: grey;
     color: white;
     padding: 14px 20px;
@@ -183,3 +194,96 @@ h2{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
+/* Mobile Styles max-width */
+    @media only screen and (max-width: 600px) {
+        .header-wrap{
+            flex-direction: column;
+        }
+
+        .navigasi{
+            flex-direction: column;
+        }
+
+        .main-container{
+            flex-direction: column;
+        }
+
+        .gambar-review{
+            flex-direction: column;
+        }
+
+        .contact-us{
+            flex-direction: column;
+        }
+
+        .information-container{
+            flex-direction: column;
+        }
+
+        .information-container2{
+            flex-direction: column;
+        }
+
+        .information-container3{
+            flex-direction: column;
+        }
+
+        #our-package{
+            flex-direction: column;
+        }
+
+        #closing{
+            flex-direction: column;
+        }
+
+        .footer-container{
+            flex-direction: column;
+        }
+    }
+
+    /* Mobile Styles max-width */
+    @media only screen and (max-width: 400px) {
+        .header-wrap{
+            flex-direction: column;
+        }
+
+        .navigasi{
+            flex-direction: column;
+        }
+
+        .main-container{
+            flex-direction: column;
+        }
+
+        .gambar-review{
+            flex-direction: column;
+        }
+
+        .contact-us{
+            flex-direction: column;
+        }
+
+        .information-container{
+            flex-direction: column;
+        }
+
+        .information-container2{
+            flex-direction: column;
+        }
+
+        .information-container3{
+            flex-direction: column;
+        }
+
+        #our-package{
+            flex-direction: column;
+        }
+
+        #closing{
+            flex-direction: column;
+        }
+
+        .footer-container{
+            flex-direction: column;
+        }
+    }

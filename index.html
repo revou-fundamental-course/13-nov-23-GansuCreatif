@@ -11,14 +11,14 @@
         <div class="header-wrap">
                 <img src="assets/travel.png" alt="Logo Travel" class="logo-travel">
             <div class="navigasi">
-                <button>Home</button>
-                <button>Our Package</button>
-                <button>Call Us</button>
+                <button onclick="scrollToSection('home')">Home</button>
+                <button onclick="scrollToSection('our-package')">Our Package</button>
+                <button onclick="scrollToSection('closing')">Call Us</button>
             </div>
         </div>
     </header>
     <main>
-        <div class="banner">
+        <div id="home" class="section">
             <h1>Your Trusted Travel Agent's</h1>
             <h5>Your Happiness is our Happiness</h5>
         </div>
@@ -90,7 +90,7 @@
                 </p>
             </div>
         </div>
-        <div class="our-package">
+        <div id="our-package" class="section">
             <h2>Our Packages</h2>
         </div>
         <ul class="package-container">
@@ -140,9 +140,9 @@
                     </p>
             </li>
         </ul>
-        <div class="closing">
+        <div id="closing" class="section">
             <h2>Bila Anda tertarik dengan Travel-Que anda dapat menghubungi kami.</h2>
-            <input type="submit" value="Hubungi Segera">
+            <button onclick="scrollToSection('home')">Hubungi Kami</button>
         </div>
     </main>
     <footer>
