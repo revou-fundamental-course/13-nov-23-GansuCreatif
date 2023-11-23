@@ -83,7 +83,6 @@ input[type=text], input[type=email], select {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    font-size: 50px;
 
 }
 
